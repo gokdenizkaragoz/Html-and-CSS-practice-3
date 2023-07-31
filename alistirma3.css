@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+  border-right: 5px solid #000;
+  border-left: 5px solid #000;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ac;
+}
+
+.first-head {
+  font-size: 22px;
+  background-color: #f7f7f7;
+
+  text-transform: uppercase;
+}
+
+.second-head {
+  font-size: 40px;
+}
+
+.third-head {
+  font-size: 30px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+#time {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#copy {
+  font-size: 16px;
+}
+
+.last-head {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.list {
+  font-size: 18px;
+  list-style: none;
+  line-height: 1.4;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid blue;
+  border-bottom: 5px dashed red;
+}
+
+.link:link,
+.link:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: red;
+  background-color: blue;
+}
+
+.link:active {
+  color: #000;
+  background-color: red;
+  text-decoration: underline black;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.next-page {
+  color: red;
+  background-color: black;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.next-page:hover {
+  color: #000;
+  background-color: red;
+}
